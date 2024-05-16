@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+#game {
+  height: 300px;
+  width: 600px;
+  border: 2px solid black;
+  background-image: url(.//img/images.jpg);
+  background-size: 600px auto;
+  margin: 0 auto;
+  margin-top: 200px;
+  animation:  background1 infinite linear;
+  animation-duration: 1.2s;
+}
+#rostami {
+  height: 90px;
+  width: 130px;
+  background-image: url(img/amirreza.jpg);
+  background-size: 130px 90px;
+  position: relative;
+  top: 160px;
+  left: 120px;
+}
+#block {
+  width: 80px;
+  height: 80px;
+  background-image: url(./img/desk.png);
+  background-size: 100px 100px;
+  position: relative;
+  top: 100px;
+  left: 600px;
+  animation: move-chair infinite linear;
+  animation-duration: 1.2s;
+}
+.jump {
+  animation: jump 0.3s infinite;
+  animation-direction: alternate;
+}
+.ab {
+  animation: ab 0.3s infinite;
+  animation-direction: alternate;
+}
+@keyframes jump {
+  0% {
+    top: 170px;
+  }
+  100% {
+    top: 50px;
+  }
+}
+@keyframes background1 {
+  0% {
+    background-position: 600px 0;
+  }
+  100% {
+    background-position: 0px 0;
+  }
+}
+@keyframes move-chair {
+  0% {
+    left: 600px;
+  }
+  100% {
+    left: -20px;
+  }
+}
+
+@keyframes ab {
+  0% {
+    top: 400px;
+  }
+  100% {
+    top: 270px;
+  }
+}@keyframes move-backpack {
+  0% {
+    left: 600px;
+  }
+  100% {
+    left: -20px;
+  }
+}
+#emtiaz-box {
+  position: relative;
+  width: 120px;
+  height: 20px;
+  top: 10px;
+  left: 180px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+#level-box {
+  position: relative;
+  width: 70px;
+  height: 20px;
+  top: -15px;
+  left: 340px;
+  line-height: 20px;
+  background-color: black;
+  color: white;
+  font-size: small;
+  text-align: center;
+  border-radius: 5px;
+}
