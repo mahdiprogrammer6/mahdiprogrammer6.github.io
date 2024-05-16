@@ -7,7 +7,7 @@
   height: 300px;
   width: 600px;
   border: 2px solid black;
-  background-image: url(.//img/images.jpg);
+  background-image: url(images.jpg);
   background-size: 600px auto;
   margin: 0 auto;
   margin-top: 200px;
@@ -17,7 +17,7 @@
 #rostami {
   height: 90px;
   width: 130px;
-  background-image: url(img/amirreza.jpg);
+  background-image: url(amirreza.jpg);
   background-size: 130px 90px;
   position: relative;
   top: 160px;
@@ -26,7 +26,7 @@
 #block {
   width: 80px;
   height: 80px;
-  background-image: url(./img/desk.png);
+  background-image: url(desk.png);
   background-size: 100px 100px;
   position: relative;
   top: 100px;
